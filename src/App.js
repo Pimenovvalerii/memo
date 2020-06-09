@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import './styles.scss';
 import SliderSlick from './SliderMain';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <SliderSlick />
     </div>
   );
