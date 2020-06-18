@@ -1,11 +1,11 @@
 import React from 'react';
-import './styles.scss';
-import SliderSlick from './SliderMain';
+
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="app">
-      <SliderSlick />
+      <Main />
     </div>
   );
 }

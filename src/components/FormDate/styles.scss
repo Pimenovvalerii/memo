@@ -1,0 +1,23 @@
+.form-date {
+    width: 320px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    label {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    button {
+        margin-top: 20px;
+    }
+}
+
+.error {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
