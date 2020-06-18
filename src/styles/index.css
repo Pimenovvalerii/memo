@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap");
+*,
+*::before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  display: inline-block;
+  color: #142141;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: #142141;
+}
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ant-switch-small {
+  min-width: 27px;
+}
+
+.ant-switch-checked {
+  background-color: #FFFFFF;
+}
+
+.ant-switch {
+  border: 1px solid #E2EDF3;
+  background-color: #FFFFFF;
+}
+
+.ant-switch::after {
+  background-color: #E2EDF3;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button.ant-btn-primary {
+  text-shadow: none;
+}
+
+.button--blue.ant-switch-checked {
+  border: 1px solid #3479F9;
+}
+
+.button--blue.ant-switch-checked::after {
+  background-color: #3479F9;
+}
+
+.button--green.ant-switch-checked {
+  border: 1px solid #43DC6F;
+}
+
+.button--green.ant-switch-checked::after {
+  background-color: #43DC6F;
+}
+
+.button--red.ant-switch-checked {
+  border: 1px solid #B82734;
+}
+
+.button--red.ant-switch-checked::after {
+  background-color: #B82734;
+}
+
+.button--grey.ant-switch-checked {
+  border: 1px solid #C3D1DA;
+}
+
+.button--grey.ant-switch-checked::after {
+  background-color: #C3D1DA;
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.button.ant-btn-primary {
+  background-color: #FFD200;
+  border-color: #FFD200;
+  color: #142141;
+  font-weight: 500;
+  padding: 10px 16px;
+  border-radius: 15px;
+  line-height: 16px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button.ant-btn-primary:hover {
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+html,
+body {
+  font-size: 15px;
+  line-height: 1;
+  font-family: 'Rubik', sans-serif;
+  color: #192A3E;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #142141;
+  font-weight: 500;
+  margin: 0;
+}
+
+h1,
+.h1 {
+  font-size: 24px;
+}
+
+h2,
+.h2 {
+  font-size: 20px;
+}
+
+h3,
+.h3 {
+  font-size: 16px;
+}
+
+h4,
+.h4 {
+  font-size: 14px;
+}
+
+h5,
+.h5 {
+  font-size: 12px;
+}
+
+a {
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.tx-big {
+  font-size: 18px;
+}
+
+.tx-normal {
+  font-size: 15px;
+}
+
+.tx-medium {
+  font-size: 14px;
+}
+
+.tx-small {
+  font-size: 13px;
+}
+
+.tx-tiny {
+  font-size: 10px;
+}
+
+.tx-mini {
+  font-size: 11px;
+}
+
+.tx-color-1 {
+  color: #F8F8F8;
+}
+
+.tx-color-2 {
+  color: #F4F4F4;
+}
+
+.tx-color-3 {
+  color: #6F7B89;
+}
+
+.tx-color-4 {
+  color: #516075;
+}
+
+.tx-color-5 {
+  color: #9EAAB6;
+}
+
+.tx-color-6 {
+  color: #FF5D50;
+}
+
+.tx-red {
+  color: #B82734;
+}
+
+.tx-blue {
+  color: #3479F9;
+}
+
+.tx-green {
+  color: #43DC6F;
+}
+
+.tx-white {
+  color: #FFFFFF;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.line-height-08 {
+  line-height: 0.8125;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.line-height-11 {
+  line-height: 1.1;
+}
+
+.line-height-12 {
+  line-height: 1.2;
+}
+
+.line-height-13 {
+  line-height: 1.3;
+}
+
+.line-height-14 {
+  line-height: 1.4;
+}
+
+.line-height-15 {
+  line-height: 1.5;
+}
+
+.line-height-16 {
+  line-height: 1.6;
+}
+
+.letter-spacing-016 {
+  letter-spacing: 0.16px;
+}
+
+.letter-spacing-02 {
+  letter-spacing: 0.2px;
+}
+
+.letter-spacing-03 {
+  letter-spacing: 0.3px;
+}
+
+.letter-spacing-048 {
+  letter-spacing: 0.48px;
+}
+
+.letter-spacing-064 {
+  letter-spacing: 0.64px;
+}
+
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.vertical-align-bottom {
+  vertical-align: baseline;
+}
+/*# sourceMappingURL=index.css.map */
