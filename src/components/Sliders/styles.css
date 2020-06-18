@@ -1,0 +1,15 @@
+.main-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid red;
+}
+/*# sourceMappingURL=styles.css.map */

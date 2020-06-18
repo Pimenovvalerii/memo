@@ -1,0 +1,150 @@
+@import 'variables';
+
+*,
+*::before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    // background-image: url('../images/background.jpg');
+    // overflow-x: hidden;
+}
+
+a {
+    display: inline-block;
+    color: $black;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: $black;
+    }
+}
+
+.list-reset {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ant-switch-small {
+    min-width: 27px;
+}
+
+.ant-switch-checked {
+    background-color: $white;
+}
+
+.ant-switch {
+    border: 1px solid $gray-7;
+    background-color: $white;
+
+    &::after {
+        background-color: $gray-7;
+        box-shadow: none;
+    }
+}
+
+.button {
+
+    &.ant-btn-primary {
+        text-shadow: none;
+    }
+
+    &--blue.ant-switch-checked {
+        border: 1px solid $blue-1;
+
+        &::after {
+            background-color: $blue-1;
+        }
+    }
+
+    &--green.ant-switch-checked {
+        border: 1px solid $green-1;
+
+        &::after {
+            background-color: $green-1;
+        }
+    }
+
+    &--red.ant-switch-checked {
+        border: 1px solid $red-1;
+
+        &::after {
+            background-color: $red-1;
+        }
+    }
+
+    &--grey.ant-switch-checked {
+        border: 1px solid $gray-8;
+
+        &::after {
+            background-color: $gray-8;
+        }
+    }
+}
+
+.card {
+    background: $white;
+    border-radius: 4px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+}
+
+.justify-content {
+    &-between {
+        justify-content: space-between;
+    }
+
+    &-center {
+        justify-content: center;
+    }
+
+    &-end {
+        justify-content: flex-end;
+    }
+}
+
+.align-items {
+    &-center {
+        align-items: center;
+    }
+}
+
+.h-100 {
+    &-vh {
+        // height: 100vh;
+    }
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.button {
+    &.ant-btn-primary {
+        background-color: $yellow-1;
+        border-color: $yellow-1;
+        color: $black;
+        font-weight: 500;
+        padding: 10px 16px;
+        border-radius: 15px;
+        line-height: 16px;
+        height: max-content;
+        box-shadow: none;
+        
+        &:hover {
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+    }
+}
+
+
